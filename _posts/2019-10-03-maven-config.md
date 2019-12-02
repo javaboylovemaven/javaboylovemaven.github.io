@@ -25,7 +25,7 @@ date: 2019-10-03 22:28:52
 
 现在存在 3 个仓库，那么 jar 包如何查找呢？
 
-![](http://maven.springboot.org/assets/images/img/3-1.png "3-1.png")
+![](http://maven.javaboy.org/assets/images/img/3-1.png "3-1.png")
 
 ### 3.2 本地仓库配置
 
@@ -36,7 +36,7 @@ date: 2019-10-03 22:28:52
 
 技术上来说，当然是可以自定义本地仓库位置的，在 conf/settings.xml 中自定义本地仓库位置：
 
-![](http://maven.springboot.org/assets/images/img/3-2.png "3-2.png")
+![](http://maven.javaboy.org/assets/images/img/3-2.png "3-2.png")
 
 ### 3.3 远程镜像配置
 
@@ -53,4 +53,4 @@ date: 2019-10-03 22:28:52
 
 这段配置，加在 settings.xml 中的 mirrors 节点中：
 
-![](http://maven.springboot.org/assets/images/img/3-3.png "3-3.png")
+![](http://maven.javaboy.org/assets/images/img/3-3.png "3-3.png")

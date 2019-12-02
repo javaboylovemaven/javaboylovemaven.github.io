@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : http://springboot.javaboy.org
 baseurl : # does not include hostname
-title   : Spring Boot2 教程合集
+title   : Maven 教程合集
 description: > # this means to ignore newlines until "Language & timezone"
   Spring Boot2 原创教程合集，还在不断更新中
   配套视频教程同步发布！
