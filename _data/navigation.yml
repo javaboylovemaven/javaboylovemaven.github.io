@@ -1,0 +1,158 @@
+header:
+  - titles:
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+    url: /archive.html
+
+  - titles:
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+    url: /about.html
+    
+  - titles:
+      en      : &EN       more
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  更多教程
+    url: http://www.javaboy.org
+docs-zh:
+  - title:      入门
+    children:
+      - title:  Java 搭建 SSM
+        url:    http://springboot.javaboy.org/2019/0528/javassm
+      - title:  创建一个 Spring Boot 项目
+        url:    http://springboot.javaboy.org/2019/0412/springboot-init
+      - title:  理解 pom.xml 中的 parent
+        url:    http://springboot.javaboy.org/2019/0413/spring-boot-parent
+  - title:      基础配置
+    children:
+      - title:  application.properties 配置
+        url:    http://springboot.javaboy.org/2019/0530/application.properties
+      - title:  YAML 配置
+        url:    http://springboot.javaboy.org/2019/0416/spring-boot-yaml
+      - title:  HTTPS 配置
+        url:    http://springboot.javaboy.org/2019/0813/springboot-https
+      - title:  自定义 starter
+        url:    http://springboot.javaboy.org/2019/0520/springboot-starter
+      - title:  条件注解，Spring Boot 的基石
+        url:    http://springboot.javaboy.org/2019/0802/springboot-conditional
+  - title:      整合视图层
+    children:
+      - title:  整合 Thymeleaf
+        url:    http://springboot.javaboy.org/2019/0613/springboot-thymeleaf
+      - title:  整合 Freemarker
+        url:    http://springboot.javaboy.org/2019/0705/springboot-freemarker
+  - title:      整合 Web 开发
+    children:
+      - title:  静态资源配置
+        url:    http://springboot.javaboy.org/2019/0408/springboot-static-resources
+      - title:  '@ControllerAdvice 的三种用法'
+        url:    http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice
+      - title:  自定义异常配置
+        url:    http://springboot.javaboy.org/2019/0417/spring-boot-exception
+      - title:  CORS 解决跨域
+        url:    http://springboot.javaboy.org/2019/0412/springboot-cors
+      - title:  定义系统启动任务
+        url:    http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner
+      - title:  定时任务
+        url:    http://springboot.javaboy.org/2019/0418/springboot-schedule-task
+      - title:  整合 Swagger2
+        url:    http://springboot.javaboy.org/2019/0416/springboot-swagger
+      - title:  SpringMVC 的配置问题
+        url:    http://springboot.javaboy.org/2019/0912/springmvc-config
+  - title:      整合持久层
+    children:
+      - title:  整合 JdbcTemplate
+        url:    http://springboot.javaboy.org/2019/0406/jdbctemplate
+      - title:  JdbcTemplate 多数据源
+        url:    http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate
+      - title:  整合 MyBatis
+        url:    http://springboot.javaboy.org/2019/0407/springboot-mybatis
+      - title:  MyBatis 多数据源
+        url:    http://springboot.javaboy.org/2019/0407/mybatis-multi
+      - title:  Spring Data Jpa
+        url:    http://springboot.javaboy.org/2019/0412/springdata-jpa
+      - title:  整合 Jpa
+        url:    http://springboot.javaboy.org/2019/0407/springboot-jpa
+      - title:  Jpa 多数据源
+        url:    http://springboot.javaboy.org/2019/0407/springboot-jpa-multi
+  - title:      整合 NoSQL
+    children:
+      - title:  整合 Redis
+        url:    http://springboot.javaboy.org/2019/0603/springboot-redis
+      - title:  Nginx 入门
+        url:    http://springboot.javaboy.org/2019/0605/nginx-guide
+      - title:  session 共享
+        url:    http://springboot.javaboy.org/2019/0604/springboot-springsession
+  - title:      整合缓存框架
+    children:
+      - title:  Spring Cache + Redis
+        url:    http://springboot.javaboy.org/2019/0416/springboot-redis
+      - title:  Spring Cache + Ehcache
+        url:    http://springboot.javaboy.org/2019/0612/springboot-ehcache
+  - title:      构建 REST 服务
+    children:
+      - title:  Spring Data Jpa 构建 REST
+        url:    http://springboot.javaboy.org/2019/0606/springboot-restful
+  - title:      安全管理
+    children:
+      - title:  整合 Shiro
+        url:    http://springboot.javaboy.org/2019/0611/springboot-shiro
+      - title:  整合 Spring Security
+        url:    http://springboot.javaboy.org/2019/0725/springboot-springsecurity
+      - title:  Spring Security 添加验证码
+        url:    http://springboot.javaboy.org/2019/0613/springsecurity-verifycode
+      - title:  Spring Security 登录使用 JSON
+        url:    http://springboot.javaboy.org/2019/0613/springsecurity-json
+      - title:  Spring Security 角色继承
+        url:    http://springboot.javaboy.org/2019/0613/springsecurity-role
+      - title:  Spring Security 整合 JWT
+        url:    http://springboot.javaboy.org/2019/0408/springboot-jwt
+      - title:  Spring Security 登录重定向问题
+        url:    http://springboot.javaboy.org/2019/1016/springsecurity-login-json
+  - title:      热部署
+    children:
+      - title:  LiveReload
+        url:    http://springboot.javaboy.org/2019/0808/springboot-livereload
+  - title:      打包发布
+    children:
+      - title:  可执行 jar 分析
+        url:    http://springboot.javaboy.org/2019/0709/springboot-jar
+      - title:  Docker 发布
+        url:    http://springboot.javaboy.org/2019/0830/springboot-docker
+  - title:      企业开发
+    children:
+      - title:  邮件发送
+        url:    http://springboot.javaboy.org/2019/0717/springboot-mail
+  - title:      Spring Boot 中的 Bug
+    children:
+      - title:  Spring Session 的 Bug
+        url:    http://springboot.javaboy.org/2019/0814/springboot-bug
+  - title:      其他资料
+    children:
+      - title:  视频教程
+        url:    http://springboot.javaboy.org/2019/0826/springboot-video
+      - title:  40 篇原创干货
+        url:    http://springboot.javaboy.org/2019/0820/springboot-guide
+      - title:  八个开源项目
+        url:    http://springboot.javaboy.org/2019/0517/springboot-samples
+      - title:  15 个高频面试题
+        url:    http://springboot.javaboy.org/2019/0619/interview
