@@ -52,3 +52,5 @@ docs-zh:
         url:    http://maven.javaboy.org/2019/1007/maven-nexus
       - title:  8. 聚合工程
         url:    http://maven.javaboy.org/2019/1008/maven-pom
+      - title:  下载电子档
+        url:    http://maven.javaboy.org/2019/1009/maven-download
